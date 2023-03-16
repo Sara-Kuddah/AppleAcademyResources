@@ -10,12 +10,12 @@ public func configure(_ app: Application) throws {
     app.databases.use(
         .postgres(hostname: "localhost",
                   port: Environment.get("DATABASE_PORT").flatMap(Int.init(_:)) ?? PostgresConfiguration.ianaPortNumber,
-                 username: "sarabinkuddah",
+                 username: "sarah",
                  password: "",
                  database: "appleacademyresources"),
         as: .psql)
 
-    app.migrations.add(CreateTodo())
+    app.migrations.add(CreateResources())
 
     // register routes
     try routes(app)
