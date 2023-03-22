@@ -6,7 +6,7 @@
  Read from uor API use GET method with the following urls
  
  ### get all resourcess url
- ```swift
+ ```url
  https://apple-academy-resources.herokuapp.com/resources/
  ```
   ### get all Coding resourcess url
