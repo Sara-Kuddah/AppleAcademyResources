@@ -3,28 +3,29 @@
  Apple Academy Resources is an API provide for Apple student all the cource resources Coding , Business and Design
  
  ##How to make an API call
- Read from uor API use GET method with the following urls
+ Read from our API use GET method with the following urls
  
- ### get all resourcess url
+ ### get all resources url
  ```url
  https://apple-academy-resources.herokuapp.com/resources/
  ```
-  ### get all Coding resourcess url
+  ### get all Coding resources url
  ```url
  https://apple-academy-resources.herokuapp.com/resources/coding
  ```
-   ### get all Business resourcess url
+   ### get all Business resources url
  ```url
  https://apple-academy-resources.herokuapp.com/resources/business
  ```
-   ### get all Design resourcess url
+   ### get all Design resources url
  ```url
  https://apple-academy-resources.herokuapp.com/resources/design
  ```
  
-Add new resource to uor API use POST method with the following url and JSON body
+ 
+Add new resource to our API use POST method with the following url and JSON body
 
- ### Post new resourcess url
+ ### Post new resource url
  ```url
  https://apple-academy-resources.herokuapp.com/resources
  ```
@@ -38,7 +39,8 @@ Add new resource to uor API use POST method with the following url and JSON body
     }
  ```
  
- Update one resource to uor API use PUT method with the following url and JSON body
+ 
+ Update one resource to our API use PUT method with the following url and JSON body
 
  ### Update one resource url
  ```url
@@ -54,7 +56,7 @@ Add new resource to uor API use POST method with the following url and JSON body
     }
  ```
  
-  Delete one resource from uor API use DELETE method with the following url and JSON body
+  Delete one resource from our API use DELETE method with the following url and JSON body
 
  ### Update one resource url
  ```url
@@ -70,5 +72,5 @@ Add new resource to uor API use POST method with the following url and JSON body
     }
  ```
  
- ## We hope that tis API helps you , and we ar open for any feedback to make it better
+ ## WWe hope that this API helps you , and we are open for any feedback to make it better
  
