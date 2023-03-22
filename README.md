@@ -10,22 +10,22 @@
  https://apple-academy-resources.herokuapp.com/resources/
  ```
   ### get all Coding resourcess url
- ```swift
+ ```url
  https://apple-academy-resources.herokuapp.com/resources/coding
  ```
    ### get all Business resourcess url
- ```swift
+ ```url
  https://apple-academy-resources.herokuapp.com/resources/business
  ```
    ### get all Design resourcess url
- ```swift
+ ```url
  https://apple-academy-resources.herokuapp.com/resources/design
  ```
  
 Add new resource to uor API use POST method with the following url and JSON body
 
  ### Post new resourcess url
- ```swift
+ ```url
  https://apple-academy-resources.herokuapp.com/resources
  ```
  ### Requst JSON Body Example:
@@ -41,7 +41,7 @@ Add new resource to uor API use POST method with the following url and JSON body
  Update one resource to uor API use PUT method with the following url and JSON body
 
  ### Update one resource url
- ```swift
+ ```url
  https://apple-academy-resources.herokuapp.com/resources
  ```
  ### Requst JSON Body Example:
@@ -57,7 +57,7 @@ Add new resource to uor API use POST method with the following url and JSON body
   Delete one resource from uor API use DELETE method with the following url and JSON body
 
  ### Update one resource url
- ```swift
+ ```url
  https://apple-academy-resources.herokuapp.com/resources
  ```
  ### Requst JSON Body Example:
