@@ -32,7 +32,6 @@ Add new resource to our API use POST method with the following url and JSON body
  ### Requst JSON Body Example:
  ```json
  {
-        "id": "{{$ugid}}",
         "title": "Configuring your Xcode project to use source control",
         "pathName": "Coding",
         "link": "https://developer.apple.com/documentation/xcode/configuring-your-xcode-project-to-use-source-control"
